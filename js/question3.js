@@ -13,7 +13,6 @@ async function fetchGamesDetails() {
 fetchGamesDetails();
 
 function createGamesDetails(gamesDetails) {
-	console.log(gamesDetails);
 	const gamesName = document.querySelector(".container h1");
 	const gamesImage = document.querySelector(".container .image");
 	const gamesDescription = document.querySelector(".container .description");
